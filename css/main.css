@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'oswald_regularregular';
+    src: url('../fonts/oswald-regular-webfont.eot');
+    src: url('../fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-regular-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-regular-webfont.woff') format('woff'),
+         url('../fonts/oswald-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-regular-webfont.svg#oswald_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo_narrowregular';
+    src: url('../fonts/archivonarrow-regular-webfont.eot');
+    src: url('../fonts/archivonarrow-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/archivonarrow-regular-webfont.woff2') format('woff2'),
+         url('../fonts/archivonarrow-regular-webfont.woff') format('woff'),
+         url('../fonts/archivonarrow-regular-webfont.ttf') format('truetype'),
+         url('../fonts/archivonarrow-regular-webfont.svg#archivo_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.top
+{
+	background: rgba(74, 169, 63, 100);
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0px 1px 4px #000;
+	position: relative;
+	z-index: 900;
+}
+.top-content
+{
+	max-width: 1200px;
+	height: 100%;
+	margin: auto;
+	padding: 3px;
+}
+.line-top
+{
+	background: #94c00b;
+	max-width: 100%;
+	height: 6px;
+	position: relative;
+	box-shadow: 0px 0px 2px #000;
+	z-index: 100;
+}
+.form-login
+{
+	max-width: 35%;
+	height: 100%;
+	float: right;
+	font-color: #FFF;
+}
+.banner
+{
+	max-width: 1200px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	z-index: 90;
+}
+.page-title
+{
+	font-family: 'archivo_narrowregular';
+}
+.menu
+{
+	background: url("../imgs/bg-menu.png") repeat #4aa931;
+	max-width: 1024px;
+	height: 50px;
+	margin: 10px auto;
+	border: 2px #388722 solid;
+	border-radius: 4px;
+	position: relative;
+	box-shadow: 0px 1px 2px #000;
+}
+.menu ul
+{
+	list-style: none;
+}
+.menu ul li 
+{
+	font-family: 'oswald_regularregular';
+	font-size: 16px;
+	font-style: bold;
+	text-shadow: 0px 2px 2px #000;
+	float: left;
+	padding: 13px;
+}
+.menu-mobile
+{
+	display: none;
+}
+.menu-indicator
+{
+	position: absolute;
+	bottom: 0px;
+	display: block;
+	height: 0px;
+	width: 0px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent #FD8A17;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	
+}
+.mobile-icon
+{
+	display: none;	
+}
+.menu ul li a 
+{
+	color:#FFF;
+}
+.wrapper
+{
+	max-width: 1024px;
+	height: auto;
+	margin: auto;
+	padding: 5px;
+}
+.content 
+{
+	width: 68.2%;
+	min-height: 750px;
+	float: left;
+	border: 2px #d7d7d7 solid;
+	border-radius: 5px;
+	font-family: Arial;
+	padding: 15px;
+}
+.footer
+{
+	max-width: 100%;
+	height:auto;
+	box-shadow: 1px 0px 5px #000 inset;
+	margin: 10px 0px 0px 0px;
+	border-bottom: 10px #94c00b solid;
+}
+.footer-content
+{
+	max-width: 1024px;
+	height: 130px;
+	margin: auto;
+	padding: 15px;
+}
+.ErrorNUm
+{
+	font-size: 40px;
+	font-weight: bold;
+}
+.panel-eco
+{
+	width: 30.5%;
+	height: auto;
+	float: left;
+	margin: 0px 0px 10px 10px;
+	border: 1px solid #4aa93f;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px #AAA;
+}
+.eco-style
+{
+	background: #03d300; /* Old browsers */
+	background: -moz-linear-gradient(top,  #03d300 0%, #00a500 41%, #4aa93f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#03d300), color-stop(41%,#00a500), color-stop(100%,#4aa93f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #03d300 0%,#00a500 41%,#4aa93f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #03d300 0%,#00a500 41%,#4aa93f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #03d300 0%,#00a500 41%,#4aa93f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #03d300 0%,#00a500 41%,#4aa93f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03d300', endColorstr='#4aa93f',GradientType=0 ); /* IE6-9 */
+	font-family: 'oswald_regularregular';
+	font-size: 15px;
+	font-style: bold;
+	text-shadow: 0px 2px 2px #000;
+	color: #FFF;
+}
+.login-panel
+{
+	font-family: Arial;
+	font-size: 13px;
+	color: #FFF;
+}
+.login-panel a
+{
+	color: #FFF;
+}
+.bubble
+{
+	position: absolute;
+	width: 215px;
+	height: auto;
+	padding: 10px;
+	background: #FFFFFF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border: #7F7F7F solid 1px;
+	margin: 5px 0px 0px 0px;
+	display: none;
+}
+
+.bubble:after
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 13px 12px;
+	border-color: #FFFFFF transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	top: -12px;
+	left: 72px;
+}
+
+.bubble:before
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 13px 12px;
+	border-color: #7F7F7F transparent;
+	display: block;
+	width: 0;
+	z-index: 0;
+	top: -13px;
+	left: 72px;
+}
+@media screen and (max-width: 360px)
+{
+	.panel-eco
+	{
+		display: none;
+	}
+	.content 
+	{
+		width: 100%;
+		height: auto;
+	}
+	.menu
+	{
+		background: url("../imgs/bg-menu.png") repeat #4aa931;
+		max-width: 350px;
+		height: 50px;
+		margin: 10px auto;
+		border: 2px #388722 solid;
+		border-radius: 4px;
+		position: relative;
+		box-shadow: 0px 1px 2px #000;
+	}
+	.menu ul
+	{
+		list-style: none;
+		display: none;
+	}
+	.mobile-icon
+	{
+		display: block;
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
+	.menu-mobile
+	{
+		max-width: 100%;
+		height: auto;
+		margin: auto;
+		padding: 5px;
+	}
+	.menu-mobile ul
+	{
+		list-style: none;
+	}
+	.menu-mobile ul li
+	{
+		display: block;
+	}
+	.menu-mobile ul li a
+	{
+		
+	}
+}
