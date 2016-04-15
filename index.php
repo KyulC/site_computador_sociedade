@@ -33,7 +33,7 @@
 					session_start();
 					if(isset($_SESSION['usuario']) && isset($_SESSION['senha']))
 					{
-						$connection = new mysqli("mysql.hostinger.es", "u240490834_sudo", "kakaroto", "u240490834_ecoli");
+						$connection = new mysqli("localhost", "user", "password", "database_name");
 						$stmt = $connection->prepare("SELECT user, password FROM users WHERE user = ?");
 						$stmt->bind_param("s", $_SESSION['usuario']);
 						$stmt->execute();
